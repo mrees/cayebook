@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>The Cloud and You</title>
+  <meta name="Generator" content="Cloud9">
+  <meta name="Author" content="Michael Rees">
+  <meta name="Keywords" content="cloud, ebook">
+  <meta name="Description" content="The Cloud and You">
+  <style>
+    /* Style Definitions */
+    h1 {
+      page-break-before:always;
+      text-align:left;
+    }
+    h2 {
+      margin-top:5%;
+      font-size:80%;
+    }
+    p {
+      margin-bottom:10.0pt;
+      text-indent:5%;
+    }
+    .runinheaading {
+      margin-left:0;
+    }
+    /* List Definitions */
+    ol {
+      margin-bottom:10pt;
+    }
+    ul {
+      margin-top: -5pt;
+      margin-bottom: 10pt;
+      margin-left: 5%;
+    }
+    li {
+      margin-bottom: 3pt;
+    }
+    /* Table of contents */
+    .tocentry {
+      margin-bottom:5.0pt;
+      text-indent:5%;
+    }
+    .tocsubentry {
+      margin-bottom:2.0pt;
+      text-indent:10%;
+    }
+    .diagram {
+      text-align:center;
+      margin-top:10pt;
+      margin-bottom:10pt;
+    }
+  </style>
+</head>
+  
+<body>
+<!--Title page-->
+<h1></h1>
+<p style='text-align:center'>The Cloud and You</p>
+<p style='text-align:center'>By Michael J Rees</p>
+<!--Copyright page-->
+<h1></h1>
+<p style='text-align:center'>Text copyright (c) 2014 Michael J Rees</p>
+<p style='text-align:center'>All Rights Reserved</p>
+<!--Dedication-->
+<h1></h1>
+<p style='text-align:center'>To Margot for her constant support</p>
+<!--Table of contents-->
+<h1>
+  <a name="#toc">Table of Contents</a>
+</h1>
+<p class="tocentry">
+  <a href="#pref">Preface</a>
+</p>
+<p class="tocentry">
+  <a href="#0101">Introduction</a>
+</p>
+<p class="tocentry">
+  <a href="#0102">Connecting to the Cloud</a>
+</p>
+<p class="tocentry">
+  <a href="#0103">Benefits of the Cloud</a>
+</p>
+<p class="tocentry">
+  <a href="#0104">Pitfalls of the Cloud</a>
+</p>
+<p class="tocentry">
+  <a href="#0105">Cloud Services</a>
+</p>
+<p class="tocentry">
+  <a href="#0201">Cloud Storage</a>
+</p>
+<p class="tocentry">
+  <a href="#0202">Cloud Storage Management</a>
+</p>
+<p class="tocentry">
+  <a href="#0203">Cloud Storage Workshop</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020301">Workshop overview</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020302">Establish a Dropbox account</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020303">Upload a document</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020304">Dropbox folders</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020305">Photos</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020306">Sharing documents</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020307">Versions</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020308">Synchronized local files</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020309">Other features</a>
+</p>
+<p class="tocsubentry">
+  <a href="#020310">For the survey</a>
+</p>
+<p class="tocentry">
+  <a href="#0301">For the survey</a>
+</p>
+<!----Preface---->
+<h1>
+  <a name="pref">Preface</a>
+</h1>
+<p>I am a retired academic who has spent 40 years teaching and researching
+  computer science. More than 15 years ago I attended the 7th World Wide
+  Web Conference in Brisbane, Australia. I saw a demonstration of a web browser
+  showing a page that allowed the user to edit the page content directly
+  in that browser. I was well and truly hooked.</p>
+<p>This was my introduction to what became known as Web 2.0. Later still
+  we called it AJAX after the mix of technology used. Then the marketers
+  started calling it The Cloud. Back in the 1990s though we always drew the
+  Internet as a cloud shape in diagrams. It's not surprising, therefore,
+  that the Cloud has become a metaphor for the Internet.</p>
+<p>Today when talking about the Cloud we mean the process by which people
+  access software, computer processing, and files over the Web, instead of
+  on their desktops. Over those more than 15 years I have reveled in the
+  Cloud, using it for both professional purposes and in my everyday life.</p>
+<p>As you might guess I use the Cloud for very many things but to give you
+  a flavor my uses include:</p>
+<ul>
+  <li>email, contacts, calendar and task reminders -- personal information</li>
+  <li>storing document and data files of all kinds</li>
+  <li>collecting and editing media such as photos, audio and video</li>
+  <li>social media sites like blogs, Twitter, Google+ and LinkedIn</li>
+  <li>specialist collections of notes, slides, links, and references</li>
+  <li>and, believe it or not some software development directly on the Cloud.</li>
+</ul>
+<p>When I praise the Cloud to my friends and colleagues I am often asked
+  "What is the Cloud and why is it so useful? I dedcided to answer by creating
+  an online course, from which this ebook has been created. In a couple of
+  hours of your time you will learn about the main features of the Cloud
+  and how you, too, can use it to accomplish everyday tasks.</p>
+<p>No matter whether you are an individual, a professional or work for a
+  company, I hope you enjoy what you read here, especially if you complete
+  the practical workshops included in this book. It's all about the Cloud
+  and you.</p>
+<!------------Chapter 01------------>
+<!------------Section 01.01------------>
+<h1>
+  <a name="0101">Introduction</a>
+</h1>
+<p>This course introduces the Cloud and how it relates to you in your everyday
+  life.</p>
+<!------------Diagram-01.01.01------------>
+<img class="diagram" src="diagrams/010101devices.png">
+<p>Many of us have access to a range of devices such as:</p>
+<ul>
+  <li>Smartphones</li>
+  <li>Tablets</li>
+  <li>Laptops, and</li>
+  <li>Desktop computers.</li>
+</ul>
+<p>All these devices are capable of connecting to the Cloud to bring us a
+  wide range of facilities as we conduct our daily lives.</p>
+<!------------Diagram-01.01.02------------>
+<img class="diagram" src="diagrams/010102internetconnect.png">
+<p>Your device you must be connected to the Internet to access the Cloud.</p>
+<p>The Cloud features are managed by a very large set of servers numbering
+  in the millions operated by a large range of companies big and small.</p>
+<!------------Diagram-01.01.03------------>
+<img class="diagram" src="diagrams/010103servers.png">
+<p>Servers are specialized computers containing processors, local memory
+  and fast network adapters to connect them to the Cloud.</p>
+<p>For the sake of efficiency large collections of servers are typically
+  housed in data centers.</p>
+<p>Software running on the servers provides a large range of useful services
+  to the user devices connected to the Cloud.</p>
+<p>Often large, coordinated groups of individual servers work together to
+  provide the Cloud services</p>
+<!------------Diagram-01.01.04------------>
+<img class="diagram" src="diagrams/010104services.png">
+<p>Probably the most widely used service today is secure Cloud storage for
+  documents and data of all kinds.</p>
+<p>High capacity disk drives are present in very large numbers housed alongside
+  the servers in the data centers to provide this vital Cloud storage service.</p>
+<p>Once stored in the Cloud documents and data can be accessed from any device
+  connected to the Internet given the correct security credentials.</p>
+<!------------Diagram-01.01.05------------>
+<img class="diagram" src="diagrams/010105storage.png">
+<p>The good news is that the large scale of Cloud services and the increasingly
+  convenient access to the Internet has driven down the cost of access.</p>
+<p>Enterprise users have been able to access the Cloud for some time, but
+  this course focuses particularly on how individuals, professionals and
+  small businesses can gain benefits from the Cloud.</p>
+<p>I look forward to explaining how the Cloud and You can work together.</p>
+<!------------Section
+01.02------------>
+<h1>
+  <a name="0102">Connecting to the Cloud</a>
+</h1>
+<p>Now you are familiar with the main Cloud components let's see how to connect
+  with the Cloud. On all the devices mentioned so far you can run a web browser
+  to connect with the vast majority of cloud services.</p>
+<!------------Diagram-01.02.01------------>
+<img class="diagram" src="diagrams/010201browser.png">
+<p>It's a simple matter of entering the address of the cloud service into
+  your browser's address field.</p>
+<!------------Diagram-01.02.02------------>
+<img class="diagram" src="diagrams/010202address.png">
+<p>Remember the Web and the Internet are quite different things</p>
+<!------------Diagram-01.02.03------------>
+<img class="diagram" src="diagrams/010203internet.png">
+<p>The Internet is a network of networks connecting devices with unique Internet
+  Protocol, IP addresses. It allows data to be exchanged between, say, your
+  smartphone and a Cloud server.</p>
+<!------------Diagram-01.02.04------------>
+<img class="diagram" src="diagrams/010204web.png">
+<p>In contrast the Web uses HyperText Transfer Protocol, HTTP, to communicate
+  between the browser on a device and a specialist Web server in the Cloud.</p>
+<p>Here we see two of the most popular Cloud storage services, Google Drive
+  and OneDrive from Microsoft. Google Drive is being used on a tablet and
+  OneDrive on a laptop.</p>
+<!------------Diagram-01.02.05------------>
+<img class="diagram" src="diagrams/010205sites.png">
+<p>Cloud service will usually detect the browser and device and alter the
+  displayed contents accordingly.</p>
+<!------------Diagram-01.02.06------------>
+<img class="diagram" src="diagrams/010206phones.png">
+<p>To make the interface more convenient many Cloud services provide dedicated
+  apps. On the left is a dedicated smartphone app for OneDrive. On the right
+  we see the same OneDrive account being displayed in a browser on a smartphone.</p>
+<p>To enable dedicated apps, most professional Cloud services offer an alternative
+  to browser access called an API or Application Programming Interface. This
+  is an acronym you will see often in connection with the Cloud. An API is
+  used by apps running on a device to access the specific Cloud service.
+  All apps that share data between devices or other users will make use of
+  the Cloud, and as such can be called Cloud apps.</p>
+<!------------Diagram-01.02.07------------>
+<img class="diagram" src="diagrams/010207api.png">
+<p>Of course where data and files are shared there is the need for an access
+  authorization system. Typically a user name and password security system
+  is used to grant you access to your Cloud data, and for you to control
+  data sharing, if needed.</p>
+<p>In summary, connecting to the Cloud is as simple as typing an address
+  into a browser or running a special app on your device. A system of user
+  names and passwords makes access to the Cloud secure.</p>
+<!------------Diagram-01.02.08------------>
+<img class="diagram" src="diagrams/010208login.png">
+<!------------Section 01.03------------>
+<h1>
+  <a name="0103">Benefits of the Cloud</a>
+</h1>
+<p>Now you have an overview of the main Cloud components let's look at the
+  question of why the Cloud is so useful.</p>
+<p>Put simply there are three compelling reasons:</p>
+<ul>
+  <li>Access from any device on the Internet</li>
+  <li>One safe place for apps, documents and services</li>
+  <li>Share documents and data with anyone</li>
+</ul>
+<!----------Diagram-01.03.01---------->
+<img class="diagram" src="diagrams/010301benefits.png">
+<p>Let me look at each one in turn.</p>
+<p>I have mentioned the large range of different Internet-connected devices
+  that can access the Cloud. They literally number in the billions so wherever
+  you are on the globe you can use your own or someone else's device for
+  access.</p>
+<p>The browser or Cloud app can detect the device type and show content to
+  accommodate the screen size and touch interface. Since browser access is
+  immediate the Cloud service can always display the latest version. There
+  is no need for the continual and often annoying process of downloading
+  and installing updated versions of apps.</p>
+<!------------Diagram-01.03.02------------>
+<img class="diagram" src="diagrams/010302onelocation.png">
+<p>You can think of the Cloud as a single location, even though the services,
+  documents and data are likely to be spread across different servers in
+  different data centers possibly even in different countries.</p>
+<p>To you the Cloud is a single, albeit nebulous, place. As such it is well
+  named.</p>
+<p>The distributed nature of the servers and disk storage also gives us security
+  against data loss. Providers of Cloud services deliberately keep multiple
+  copies of your documents and data. At the same time this affords a backup
+  service and protects against hardware failure.</p>
+<p>The Cloud gives you access to your own documents and data from all your
+  devices. This is device sharing. In addition most Cloud services also allow
+  you to share access with other people you specify, or even make your documents
+  and data accessible to all.</p>
+<!------------Diagram-01.03.03------------>
+<img class="diagram" src="diagrams/010303sharing.png">
+<p>Granting read access allows you distribute information to all and sundry.
+  You become your own publisher. Most powerfully of all is when you grant
+  edit access to others as they can then share the information creation process
+  with you. Teams and organisations find shared editing a vital tool particularly
+  with customers.</p>
+<!------------Diagram-01.03.04------------>
+<img class="diagram" src="diagrams/010304working.png">
+<p>To obtain the major benefits I listed you must change your approach to
+  computing. You should no longer be tied to a particular computing device
+  at home or work where your data is stored by apps you have to download
+  and install. Sadly it is probable you rarely, if ever, backup these particular
+  computers. Even if you back up consistently you are no longer tied to backing
+  up your documents and data and storing the backups in a single remote location.
+  Instead you can perform your computing tasks and access your documents
+  from any of your devices connected to the Cloud. Backup comes for free.</p>
+<!------------Diagram-01.03.05------------>
+<img class="diagram" src="diagrams/010305summary.png">
+<!------------Section 01.04------------>
+<h1>
+  <a name="0104">Pitfalls of the Cloud</a>
+</h1>
+<p>I have listed the considerable benefits of the Cloud, but as always these
+  come with some associated risks.</p>
+<p>You must understand the potential pitfalls in order weigh up if the Cloud
+  is for you at the end of the day.</p>
+<!------------Diagram-01.04.01------------>
+<img class="diagram" src="diagrams/010401pitfalls.png">
+<p>Again being brief there are three significant pitfalls:</p>
+<ul>
+  <li>You need an Internet connection</li>
+  <li>You must trust the Cloud service providers to stay in business</li>
+  <li>You should assess the security of data transfer and storage</li>
+</ul>
+<p>Let me look at each one in turn.</p>
+<!------------Diagram-01.01.02------------>
+<img class="diagram" src="diagrams/010402internet.png">
+<p>You must access the Cloud via the Internet so you need an Internet connection
+  for each transaction or task. However the connection does not have to be
+  continuous. Indeed a browser only connects to the Cloud when it has a transaction
+  to carry out.</p>
+<p>For example when checking for email messages the browser connects and
+  receives a list of messages. Only when the user wants to read, delete or
+  send a new message does the browser connect again. If the Internet connection
+  goes down then a delay occurs until it is available once more, annoying
+  but the transaction recovers when connection is possible.</p>
+<p>In many countries, with increasing availability of mobile phone networks
+  and Wi-Fi, Internet access is becoming ubiquitous making the use of the
+  Cloud more and more feasible.</p>
+<!------------Diagram-01.04.03------------>
+<img class="diagram" src="diagrams/010403trust.png">
+<p>Just as with Internet services there are many companies providing Cloud
+  services both big and small. When you use free or paid Cloud services from
+  a company you must judge the likelihood of their service being reliable
+  and long lasting. Some small Cloud service companies have ceased operating,
+  as have individual services from large companies like Google. All will
+  give a lead time to allow you to copy your data to a competing service.</p>
+<p>Many Cloud service providers are small startups who are eventually taken
+  over by larger companies that either continue the service or provide similar
+  ones. Individuals, professionals and small businesses in particular, should
+  have a plan to switch Cloud services when there is a heavy reliance on
+  one particular service. This is a major point of difference to locally
+  installed software and data that will stay on a local computer even if
+  the software is no longer updated and supported.</p>
+<p>Security is the most common criticism heard against the adoption of the
+  Cloud and there are two aspects, data transport through the Internet and
+  data storage security.</p>
+<!------------Diagram-01.04.05------------>
+<img class="diagram" src="diagrams/010405security.png">
+<p>Let's start with data transport between the device and the Cloud. By design
+  Internet Protocol passes data packets through intermediate servers. Each
+  server can keep a copy of the data packet and inspect its contents. Fortunately
+  using secure HTTP, called HTTPS, data is encrypted as it passes through
+  the Internet and arrives safely.</p>
+<p>For data storage security we have to trust the Cloud service providers
+  to encrypt our passwords and documents. Despite rare lapses today's commercial
+  Cloud service providers offer a very high level of data storage security.</p>
+<p>A third aspect of Cloud security that usually affects only large organisations
+  is the geographical location of their Cloud storage. The location affects
+  whether local law enforcement agencies can demand copies of documents and
+  data stored in the Cloud. As well some government organisations are legally
+  constrained to hold their data in their country of operations. If these
+  are concerns you must only use a Cloud service provider that can guarantee
+  the geographical security you require.</p>
+<!------------Diagram-01.04.06------------>
+<img class="diagram" src="diagrams/010406summary.png">
+<p>To summarise, there are some downsides to the Cloud:</p>
+<ul>
+  <li>An Internet connection is needed, at least intermittently.</li>
+  <li>You must trust that a Cloud service is reliable and long lasting, or have
+    a plan B.</li>
+  <li>Cloud security requires careful consideration of the risks both in data
+    transport and data storage and its location.</li>
+</ul>
+<p>Nevertheless in my judgment and experience the risks for individuals,
+  professionals and small business are low enough to make use of the Cloud
+  worthwhile.</p>
+<!------------Section-01.05------------>
+<h1>
+  <a name="0105">Cloud Services</a>
+</h1>
+<!------------Diagram-010501------------>
+<img class="diagram" src="diagrams/010501services.png">
+<p>Having covered the benefits and pitfalls of the Cloud I would like to
+  mention a few of the more important Cloud services selected from the thousands
+  available today.</p>
+<p>Several of these Cloud services will be useful in your day-to-day activities.</p>
+<!------------Diagram-01.05.02------------>
+<img class="diagram" src="diagrams/010502email.png">
+<p>As I mentioned, online email was the genesis of the Cloud, and many large
+  companies offer Cloud email services. I show Outlook.com, a part of Microsoft's
+  OneDrive, and the successor to Hotmail which was one of the first and largest
+  of the email services. Other major competitors are Yahoo mail, Google mail
+  and Apple's iCloud with a host of other companies in their wake. Of course,
+  virtually every Internet Service Provider also gives their users access
+  to web mail.</p>
+<!------------Diagram-01.05.03------------>
+<img class="diagram" src="diagrams/010503storage.png">
+<p>I will cover Cloud storage in later lectures but it is the next most important
+  service after email. The very popular Dropbox is shown here. Like several
+  competing services it offers storage for all file types with a generic
+  file system user interface typical of Windows Explorer and Mac Finder.
+  Dropbox runs across all the devices I have discussed, and provides the
+  typical synchronization and backup capability expected of such services.</p>
+<!------------Diagram-01.05.04------------>
+<img class="diagram" src="diagrams/010504media.png">
+<p>Storing media files like photos, music and video is just a special variant
+  of Cloud storage. The features of the user interface experience in the
+  browser are tailored to the different types of media involved. Here on
+  Yahoo Flickr, a venerable site for storing photos, the features of the
+  service for storing and sharing photos are extensive. This is a vey important
+  photo service since Flickr now offers 1 terabyte of Cloud storage for free,
+  that's a cool one thousand gigabytes!</p>
+<!------------Diagram-01.05.05------------>
+<img class="diagram" src="diagrams/010505office.png">
+<p>Again I will cover Cloud office apps more fully in a later lecture. Most
+  users today receive email attachments in popular document formats from
+  Microsoft Office, particularly Word, Excel and PowerPoint documents. Being
+  able to read and create these formats in the Cloud is a popular service.
+  Microsoft offers Cloud app equivalents to Word, Excel and PowerPoint via
+  OneDrive. Another major competitor in this space is Google Apps. Snippets
+  of data like notes, addresses, images, screen dumps, voice narration and
+  so on, are difficult to store cohesively and find again later. This has
+  led to development of specific Cloud notes apps like the leader Evernote,
+  and Microsoft OneNote.</p>
+<!------------Diagram-01.05.06------------>
+<img class="diagram" src="diagrams/010506data.png">
+<p>A structured data repository is just a flowery term for a database resident
+  in the Cloud where users can create and edit data records, and then search
+  for them intelligently at a later date. The interface presented in the
+  browser or Cloud app is carefully designed to be convenient for the type
+  of data stored in the collection. I show the Diigo Cloud service used to
+  store web links with associated labels and descriptions. Diigo goes much
+  further allowing you to store whole web page content for reading later,
+  annotating parts of pages and sharing any or all of this with other users.
+  Academic references curated on Mendeley, and slide shows stored on SlideShare
+  are a couple more common examples of structured data.</p>
+<p>Online shopping and financial services are Cloud services I will mention
+  in a later lecture. The list of services is still far from exhausted, but
+  it would probably take a whole course to do justice to the full range of
+  Cloud services. Suffice it to say there are few computing tasks that cannot
+  be undertaken successfully in the Cloud. These days you would have to mount
+  a special case to avoid the use of Cloud services.</p>
+<!------------Section-02.01------------>
+<h1>
+  <a name="0201">Cloud Storage Features</a>
+</h1>
+<p>Storage is one of the most popular Cloud services. I will describe the
+  facilities in more depth. At the end of this section a short workshop takes
+  you through the practical steps to establish and use your own Cloud storage,
+  that is if you don't use it already.</p>
+<!------------Diagram-02.01.01------------>
+<img class="diagram" src="diagrams/020101features.png">
+<p>Recall that Cloud storage mirrors the main benefits of the Cloud itself.
+  You can access your documents and data files from any Internet-connected
+  device. The Cloud provides a single, safe place to store your documents.
+  Once in the Cloud your documents are private by default but can also be
+  shared with others, either specific individuals or the public.</p>
+<p>Here I show some files and folders in an example DropBox account. DropBox
+  has been operating successfully since 2007. Each free account comes with
+  a relatively small 2 GB of storage space with the option to pay for much
+  larger storage space. This is a business model adopted by all the major
+  Cloud storage providers.</p>
+<!------------Diagram-02.01.02------------>
+<img class="diagram" src="diagrams/020102dropbox.png">
+<p>DropBox has been available for several years and has a proven track record
+  of providing a reliable service. The screen on the left shows DropBox running
+  in a browser on a Windows machine. The pair of screens on the right are
+  from a smartphone with the left side being from a browser and the right
+  showing a dedicated DropBox app on the same device. DropBox is accessible
+  from all the devices I have spoken about.</p>
+<p>Two of the key attributes of Cloud storage are shown the diagram. The
+  documents are accessible from any device on the Internet, and, the documents
+  are stored in one place, safely backed up by the Cloud storage provider.</p>
+<!------------Diagram-02.01.03------------>
+<img class="diagram" src="diagrams/020103pdf.png">
+<p>All the previous screens are examples of displaying the list of files
+  stored in the Cloud. For common file types, by clicking or touching a file
+  name, the contents will be downloaded and displayed on the device. Here
+  we see a PDF file being displayed. For special file types, we are prompted
+  to download the file to the device as long as there is enough storage space
+  available.</p>
+<p>On laptop operating systems with a visible file system the Cloud storage
+  providers make available server apps that run in the background. These
+  apps synchronize documents between a local folder and the Cloud storage.
+  Any changes to the documents such as creation, deletion or update are quickly
+  synchronized.</p>
+<!------------Diagram-02.01.04------------>
+<img class="diagram" src="diagrams/020104files.png">
+<p>This means that you always have a synchronized copy of all your Cloud
+  documents on your laptops and desktops. Two major benefits are present,
+  firstly you have one or more local backups of your Cloud documents, and
+  secondly your documents are the latest versions on all devices.</p>
+<!------------Diagram-02.01.05------------>
+<img class="diagram" src="diagrams/020105downsides.png">
+<p>Again there are some inevitable downsides. An Internet connection is required
+  at least on a reasonably intermittent basis. The document upload and download
+  to maintain synchrony requires high bandwidth especially for large documents.
+  This will impact any data caps on your Internet service and will be particularly
+  noticeable for Internet connections using mobile phone services. And you
+  should know by now that any Cloud service always has to consider security
+  and trust issues before using the service.</p>
+<p>Once again, I and millions of other users will testify to the benefits
+  of Cloud storage outweighing the pitfalls. DropBox has over 200 million
+  users currently. Remember with Cloud storage wherever you travel your
+  documents go with you even if it is just from one of your devices to another.
+  As well as DropBox also look at other prominent services such as:</p>
+<ul>
+  <li>Microsoft OneDrive with 7 GB of free space</li>
+  <li>Google Drive with 15 GB</li>
+  <li>Amazon Cloud Drive with 5 GB, and</li>
+  <li>Box with 10 GB</li>
+</ul>
+<p>These free space limits will generally increase over time.</p>
+<!------------Section-02.02------------>
+<h1>
+  <a name="0202">Cloud Storage Management</a>
+</h1>
+
+<p>Let us go into a little more depth on how to manage your Cloud storage.
+  Once you commit to the Cloud it should be second nature to store and share
+  your documents and media files in your Cloud storage services. I deliberately
+  use the plural because you will probably end up using at least a couple
+  of Cloud storages.</p>
+<!------------Diagram-02.02.01------------>
+<img class="diagram" src="diagrams/020201tasks.png">
+<p>As with any file system the Cloud document management tasks are:</p>
+<ul>
+  <li>Uploading documents and files to the Cloud</li>
+  <li>Renaming and moving documents in Cloud storage</li>
+  <li>Deleting files</li>
+</ul>
+<p>Increasingly, Cloud storage services are offering the ability to edit
+  certain types of documents within the browser or dedicated app running
+  on the device. This avoids the need to download the document, edit it with
+  a special app, and upload it again. I am sure we all look forward to seeing
+  more and more sophisticated, in situ editing of Cloud documents in the
+  future.</p>
+<!------------Diagram-02.02.02------------>
+<img class="diagram" src="diagrams/020202upload.png">
+<p>It is usual to start with an existing collection of local files stored
+  on your various devices particularly laptops and desktops. These files
+  must be uploaded to your Cloud storage. Although in most cases some intelligent
+  compression is used, it is best to assume uploading 1 GB of files will
+  consume 1 GB of the data cap for your Internet service.</p>
+<p>Trigger the upload at quiet times in your Internet use, especially if
+  a group or family shares your connection. I tend to leave the upload to
+  a couple of days before my monthly data cap renews, when I know I have
+  some spare capacity and will otherwise lose it.</p>
+<p>The simple way is to upload directly from a browser. Most browser uploaders
+  now allow you to select multiple files and whole folders to make uploading
+  more convenient. Often you can just drag large selections of files or folders
+  into the browser dialog as shown here. On a laptop with synchronization
+  running, you just copy the files into your local Cloud folder and the synchronization
+  app will then begin to upload files to the Cloud.</p>
+<p>Having selected a file in your list, DropBox will expose a set of file
+  management options including delete, rename, duplicate, download, and move
+  to a different folder. New folders can be created and renamed. A significant
+  feature of DropBox is versioning which allows you to return the file to
+  any past version as we see in the lower window. This is very useful when
+  you delete large portions of a file. These lost contents can always be
+  recovered.</p>
+<!------------Diagram-02.02.03------------>
+<img class="diagram" src="diagrams/020203sharing.png">
+<p>Sharing your Cloud document with others is a very important and unique
+  benefit of Cloud storage. DropBox allows you to share whole folders, too.</p>
+<p>When you click the sharing link in DropBox a number of sharing options
+  appear. You can fill in the email address and message and send a message
+  with the document link included. This allows you to kiss goodbye to attaching
+  physical copies of documents in emails.</p>
+<p>Email though is regarded as so last century, and many users will prefer
+  to share documents such as photos and videos, in their social media updates.
+  DropBox provides for Twitter and Facebook as you see. A third option copies
+  the shared document link to the clipboard and allows you to paste that
+  into a web page, a chat box, SMS text or other social media sites. Your
+  recipient just clicks on this link to read your document, see your photo
+  or video, or listen to your music track. This is the power of the Cloud
+  coming to the fore.</p>
+<p>There are a couple more features in DropBox that you will meet in the
+  workshop.</p>
+<p>Although it more than meets the needs of Cloud storage document management
+  at present DropBox does not provide in situ editing of documents. This
+  is the domain of the Cloud Office apps which I cover in a later section.
+  Now is the time for you to gain practical experience with Cloud storage
+  in the workshop to come.</p>
+
+<!------------Section-02.03------------>
+<h1><a name="0203">Cloud Storage Workshop</a></h1>
+
+
+<!------------SubSection-02.03.01------------>
+<h2><a name="020301">Workshop overview</a></h2>
+<p>The steps in this workshop take you through setting up an account on Dropbox,
+  uploading some documents and performing some management tasks on those
+  documents. You then explore access from multiple devices if you have them
+  available. Finally you share a document and retain its link for use in
+  a later survey.</p>
+<p>Carry out the initial steps on your own laptop if possible to obtain the
+  maximum benefit of the local document synchronization.</p>
+<p>Note that the last section in this workshop asks you to copy a sharing
+  link to a Dropbox photo or image to the clipboard in preparation to pasting
+  the link into an answer field of a later survey.</p>
+<p>If you are using a computer in a public place like a library, Internet
+  cafe or student lab then you can still do the majority of the workshop
+  in the Cloud without the local synchronization features. You can still
+  complete the survey.</p>
+<p>If you already use Dropbox on your own laptop or desktop skip the sections
+  that do not apply. Hopefully you still might learn some features of which
+  you are not aware.</p>
+<!------------SubSection-02.03.02------------>
+<h2>
+  <a name="020302">Establish a Dropbox account</a>
+</h2>
+<p>If you already have a Dropbox account skip this section. </p>
+<p>When creating
+  a Dropbox account in order to complete this workshop bear in mind you may
+  become a permanent Dropbox user, so use a sensible name and a valid email
+  address, which becomes your Dropbox account name.</p>
+<ol>
+  <li>In a browser go to https://www.dropbox.com/ and choose the button to Sign
+    up, and complete the signup form credentials. This will trigger an email
+    from Dropbox urging you to install the Dropbox synchronization server app
+    on your laptop or desktop. Ignore this for now.</li>
+  <li>With your new Dropbox credentials you will be able to login.</li></ol>
+  
+  <!------------SubSection-02.03.03------------>
+  <h2><a name="020303">Upload a document</a></h2>
+<p>Make sure you are logged in to your Dropbox account in a browser. Even
+  on a public computer there will be files that you can upload, or you may
+  have a USB drive plugged in with your own files stored.</p>
+<ol>
+  <li>Click on the Files link at the top left to show your list of Dropbox files,
+    which may be empty at this point.</li>
+  <li>Note the file management tools which control upload, new folder creation,
+    folder sharing and the deleted files list.</li>
+  <!------------Diagram-02.03.01------------>
+  <img class="diagram" src="diagrams/020301tools.png">
+  <li>Click the Upload tool and then the Choose files button. Choose a document
+    file like a PDF, an Office document, or a text file and click Open. Note
+    you can select several files for upload in the file selection dialog.</li>
+  <li>The file will be uploaded to Dropbox and appear in the list of files.</li>
+</ol>
+<p>Note that you can upload whole folders via the mechanism, and, if you
+  have the Explorer or Finder open in another window, you can just drag files
+  or folders into the upload dialog to trigger the transfer to Dropbox.</p>
+</p>
+
+<!------------SubSection-02.03.04------------>
+<h2><a name="020304">Dropbox folders</a></h2>
+<ol>
+  <li>Create a new folder called Documents by clicking the New folder tool,
+    entering the name and pressing Enter.</li>
+  <li>In the files list, click the name of your uploaded document, and note
+    the dialog which allows you to download and share this document. For now
+    just close this dialog by clicking the X.</li>
+  <li>Click to the right of the name of that document to select it. Note a further
+    series of tools appears:</li>
+  <!------------Diagram-02.03.02------------>
+  <img class="diagram" src="diagrams/020302tools.png">
+  <li>In this case click on Move, select your newly created folder Documents,
+    and click Move. This will move your document to the chosen Dropbox folder.</li>
+</ol>
+<!------------SubSection-02.03.05------------>
+<h2>
+  <a name="xxx">Photos</a>
+</h2>
+</a>
+<p>A recent addition to Dropbox introduced special handling for photos.</p>
+<ol>
+  <li>Upload any image such as a .gif, .jpg or .png file.</li>
+  <li>From the files list click on the Photos link on the left. Dropbox will
+    scan all your uploaded documents for images and display them accordingly.
+    Note you can click the Photos link from Dropbox on any of your other devices
+    like a smartphone or tablet allowing you to see your photo collection and
+    show them to others.</li>
+  <li>Create a new folder called Photos and move the uploaded image file to
+    that new folder.</li>
+</ol>
+<p>Note that as with any document you can Rename and Delete any of your documents
+  and photos.</p>
+  
+<!------------SubSection-02.03.06------------>
+<h2>
+  <a name="020306">Sharing documents</a>
+</h2>
+<p>Sharing is one of the most important reasons for using Cloud storage like
+  Dropbox. You can access your Dropbox documents from the browser from any
+  device, your own devices and any other device you can access. Perhaps more
+  important still you can share any of your documents or folders with other
+  people.</p>
+<ol>
+  <li>Hover the mouse over the Share link symbol on the right of the document
+    you want to share:</li>
+  <!------------Diagram-02.03.03------------>
+  <img class="diagram" src="diagrams/020303link.png">
+  <li>This brings up the Share dialog:</li>
+  <!------------Diagram-02.03.04------------>
+  <img class="diagram" src="diagrams/020304sharing.png">
+  <li>First click the Get link button to copy the sharing link to the clipboard,
+    open a new browser tag or window, and paste the link into the address field
+    to see the document.</li>
+  <li>Enter the email address of a friend (or you own email address). Type a
+    short message like 'I' am sharing this file with you' and click the Send
+    button. Provided email is configured on your device this will send a message
+    with the sharing link. The recipient just clicks on the 'Click here to
+    view' link to access the document.</li>
+  <li>Note, you can share whole folders this way as well.</li>
+  <li>Click on the Links link in the files list and Dropbox shows all the files
+    and folders that you have linked and when. If other people have shared
+    with you, click on the From others link to see those files and folders:</li>
+  <!------------Diagram-02.03.04------------>
+  <img class="diagram" src="diagrams/020304sharing.png">
+</ol>
+<p>This sharing process is a particularly good method for distributing photos
+  and videos without having to attach copies to email, for example.</p>
+  
+  <!------------SubSection-02.03.07------------>
+  <h2><a name="020307">Versions</a></h2>
+<p>If you upload an updated version of a document that already exists in
+  your Dropbox files then the old version is saved and is replaced by the
+  new upload.</p>
+<ol>
+  <li>Upload the same document twice.</li>
+  <li>Select the document entry in the files list.</li>
+  <li>Click the More tool:</li>
+  <!------------Diagram-02.03.05------------>
+  <img class="diagram" src="diagrams/020305links.png">
+  <li>Select Previous versions. Dropbox will show a list of previous versions
+    of the document.</li>
+  <li>If you want to revert to one of the previous versions, click the radio
+    button on the left and click the Restore button. Dropbox creates a new
+    version being a copy of the previous document you selected, the old latest
+    version is retained.</li>
+</ol>
+<p>Dropbox therefore retains all the document changes as you work on different
+  versions.</p>
+  
+<!------------SubSection-02.03.08------------>
+<h2>
+  <a name="020308">Synchronized local files</a>
+</h2>
+<p>You can only do this section if you are running on your own laptop or
+  desktop computer. Skip this section if you are using a public computer.</p>
+<ol>
+  <li>Download the Dropbox server by visiting https://www.dropbox.com/downloading
+    where the app will start downloading and you receive instructions about
+    installation.</li>
+  <li>Once installed the Dropbox server will prompt you for your Dropbox account
+    and ask for the folder to store the local copies of your Dropbox files.
+    It is safe to choose the defaults.</li>
+  <li>When the Dropbox server is running it displays an icon in the usual taskbars
+    on Mac and PC. Right clicking (clicking on Mac) on the icon reveals:</li>
+    <!------------Diagram-02.03.06----------->
+    <img class="diagram" src="diagrams/020306move.png">
+  <li>Click on the Dropbox Folder to see the contents of your local Dropbox
+    folder which after the initial downloads will always mirror the files you
+    at Dropbox.com in the browser.</li>
+  <li>From this point on you can just work with your local Dropbox folder and
+    any additions, deletions and changes to files or folders will be synchronized
+    in your Dropbox Cloud. Remember for synchronization to occur your device
+    must be connected to the Internet. However you can still work offline and
+    Dropbox automatically resyncs when you have an Internet connection again.</li>
+</ol>
+
+<!------------SubSection-02.03.09------------>
+<h2>
+  <a name="020309">Other features</a>
+</h2>
+<p class="runinheading">
+  <em>Events</em>: The Events link on the left of the Dropbox files list shows
+  a complete log of all the activity that has taken place in your Dropbox
+  account since it was created. You can limit the list to a particular date
+  and narrow it down to your shared folders as well. This last feature allows
+  you to monitor team activity on a shared folder.</p>
+<p class="runinheading">
+  <em>Get more space</em>: Clicking on the Get free space link shows you ways
+  you can either purchase more storage space or accumulate free space by
+  spreading the word to friends via email and social media.</p>
+  
+<!------------SubSection-02.03.10------------>
+<h2>
+  <a name="020310">For the survey</a>
+</h2>
+<p>In a later survey a question will ask you to enter the link of one of
+  your photos/images you uploaded on Dropbox in one of the steps above. Use
+  the Get link feature to copy the web link to your clipboard in readiness
+  to paste into your survey answer.</p>
+ 
+ <!------------Section-03.01------------>
+ <h1><a name="0301">Cloud Office Apps</a></h1>
+<p>In this section I describe Cloud Office apps, the current pinnacle of
+  Cloud services. By Cloud Office apps I mean sites that allow you to create
+  and edit documents in the common Microsoft Office formats such as Word,
+  Excel and PowerPoint. All processing is done in the Cloud without the need
+  to install local Office apps on your devices.</p>
+  <!------------Diagram-03.01.01------------>
+  <img class="diagram" src="diagrams/030101apps.png">
+<p>I am going to cover Google Drive in this lecture and Microsoft OneDrive
+  in the workshop You won’t be surprised to learn that both Google Drive
+  and OneDrive also offer Cloud storage services to store the Office documents.
+  As such they form a useful comparison to Dropbox in the Cloud storage services
+  area.</p>
+  <!------------Diagram-03.01.02------------>
+  <img class="diagram" src="diagrams/030102gapps.png">
+<p>With a Google account, a Gmail account for example, you go to drive.google.com
+  to access your Google drive. There you see a list of your documents in
+  the Cloud with the usual abilities to upload, manage and share them. Google
+  Drive adds powerful features to create new documents, spreadsheets, presentations
+  and drawings. Drive uses its own proprietary format for documents but is
+  able to import and export the standard Microsoft formats for Word, Excel
+  and PowerPoint.</p>
+<!------------Diagram-03.01.03------------>
+<img class="diagram" src="diagrams/030103doc.png">
+<p>Here we see the Cloud storage workshop document which I created with Microsoft
+  Word 2013. I uploaded this document to Drive and Google is able to store
+  and display it correctly. Drive can also rename, move to a folder, download
+  and print this document. Because the document is in Microsoft .docx format,
+  it cannot be edited by Drive until it is converted into the special format
+  used by Google.</p>
+<!------------Diagram-03.01.04------------>
+<img class="diagram" src="diagrams/030104create.png">
+<p>In contrast a Google document created in Drive has full editing capability
+  within the browser and allows fairly sophisticated documents to be prepared.
+  Drive then offers an extensive range of formats in which to download this
+  document. In the list the .docx and PDF formats are probably the most useful.</p>
+<!------------Diagram-03.01.05------------>
+<img class="diagram" src="diagrams/030105otherapps.png">
+<p>The same holds true for Google Presentations, Sheets and Drawings. All
+  these Google Office apps offer an increasingly extensive range of editing
+  features, and all can export documents in the equivalent Microsoft Office
+  format.</p>
+
+<!------------Section-03.02------------>
+<h1>
+  <a name="0302">Cloud Office Apps Workshop</a>
+</h1>
+<!------------SubSection-03.02.01------------>
+<h2>
+  <a name="030201">Workshop overview</a>
+</h2>
+<p>The steps in this workshop take you through setting up a Microsoft account,
+  if you don’t have one already. Then you will use OneDrive to create some
+  Office documents in the Cloud. You can share these documents amongst your
+  devices and other users.</p>
+<p>Carry out the steps on your own laptop or desktop if possible to obtain
+  the maximum benefit of the local document synchronization.</p>
+<p>Note that the last section in this workshop asks you to copy a sharing
+  link for a document to the clipboard in preparation to pasting the link
+  into an answer field of a later survey.</p>
+<p>If you are using a computer in a public place like a library, Internet
+  cafe or student lab then you can still do the majority of the workshop
+  in the Cloud without the local synchronization features. You can still
+  complete the survey.</p>
+<p>If you already own a Microsoft account (like Hotmail) skip the sections
+  that do not apply. Hopefully you still might learn some OneDrive features
+  of which you are not aware.</p>
+
+<!------------SubSection-03.02.02------------>
+<h2>
+  <a name="030202">Establish a Microsoft Account</a>
+</h2>
+<p>If you already have a Microsoft account skip this section.</p>
+<p>When creating a new Microsoft account in order to complete this workshop
+  bear in mind you may become a permanent OneDrive user, so create a sensible
+  Microsoft email address. I recommend you chose something like myusername@outlook.com.</p>
+<ol>
+  <li>In a browser go to https://onedrive.com and click the link to Sign up
+    and/or Sign up now to take you to the Create an account form.</li>
+  <li>Your name, new password, birth date and gender are required. Click on
+    the ‘Or get a new email address’ link to force an xxxx@outlook.com address.</li>
+  <li>Overcoming the Microsoft captcha to prove you are not a robot is notoriously
+    difficult. Generate a new one or use the audio feature to read the characters
+    to you.</li>
+  <li>Uncheck the promotional email offers checkbox. You will receive a welcome
+    email in your new Microsoft account inbox. If not directed there, go to
+    https://onedrive.com, login and click the down arrow alongside OneDrive
+    at the top left and navigate to Outlook.com:</li>
+    <!------------Diagram-03.02.01------------>
+    <img class="diagram" src="diagrams/030201onedrive.png">
+</ol>
+<p>Note this Cloud service combines, email, contacts (People), calendar as
+  well as OneDrive which itself provides Cloud storage and Office apps which
+  are called Office Online.</p>
+
+<!------------SubSection-03.02.03------------>
+<h2>
+  <a name="030203">Create a folder</a>
+</h2>
+<p>The OneDrive Cloud storage uses folders in the conventional way. When
+  you login to OneDrive you are positioned at the top level folder called
+  something like Fred’s OneDrive. To create a folder:</p>
+<ol>
+  <li>Click on the Create link then click on Folder.</li>
+  <li>Type in a folder name like ‘Office Documents’ and click the Create link.</li>
+</ol>
+<p>Once the new folder is created click on its name to be positioned within
+  that folder. Its name and a breadcrumb list like Fred’s OneDrive > Office
+  Documents will appear.</p>
+<!------------SubSection-03.02.04------------>
+<h2>
+  <a name="030204">Upload documents</a>
+</h2>
+<p>Position yourself in the folder of your choice and decide on a document
+  to upload. Even on a public computer there will be files that you can upload,
+  or you may have a USB drive plugged in with your own files stored.</p>
+<ol>
+  <li>Use the Upload link to upload at least a Word document, and Excel spreadsheet
+    and a PowerPoint presentation document to OneDrive.</li>
+  <!------------Diagram-03.02.02------------>
+  <img class="diagram" src="diagrams/030202upload.png">
+  <li>Don’t worry if you can’t locate an example of these documents, you will
+    be creating examples in later parts of this workshop</li>
+</ol>
+<p>Note that you can upload multiple files but for folder management you
+  use the Folder actions menu:</p>
+<!------------Diagram-03.02.03------------>
+<img class="diagram" src="diagrams/030203actions.png">
+
+<!------------SubSection-03.02.05------------>
+<h2><a name="030205">Editing Documents</a></h2>
+<p>Clicking on one of your uploaded Office documents will take you to the
+  appropriate Office Online App. [If your computer has a local installation
+  of Office you will need to click on EDIT DOCUMENT and select Edit in Word
+  Online.] The document opens in the browser and presents you with a significant
+  set of editing tools in the familiar ribbon layout. This workshop document
+  was prepared with Microsoft Word 2013 on a desktop, and after upload to
+  OneDrive further editing can be carried out:</p>
+<!------------Diagram-03.02.04------------>
+<img class="diagram" src="diagrams/030204word.png">
+<p>Note you can always navigate back to the OneDrive files by clicking the
+  OneDrive link in the breadcrumbs.</p>
+<p>To create Office documents in OneDrive click on the Create menu and select
+  type of document you require:</p>
+<!------------Diagram-03.02.05------------>
+<img class="diagram" src="diagrams/030205files.png">
+
+<!------------SubSection-03.02.06------------>
+<h2>
+  <a name="030206">Word documents</a>
+</h2>
+<ol>
+  <li>Create a Word document and call it My Cloud to Date.docx.</li>
+  <li>Enter your name as a Level 1 heading, then list your current use of the
+    Cloud by using Level 2 headings followed by a list of sites. If you have
+    not used any Cloud services simply enter a sentence to that effect.</li>
+  <li>End the document with the date in italics.</li>
+  <li>Click on the File menu and save your Word document.</li>
+  <li>Spend a couple of minutes inspecting the INSERT, PAGE LAYOUT and VIEW
+    menus.</li>
+</ol>
+<!------------Diagram-03.02.06------------>
+<img class="diagram" src="diagrams/030206word.png">
+<p>You click on the SHARE link to share a link to this document in a dialog
+  reminiscent of the equivalent in Dropbox you saw earlier:</p>
+<!------------Diagram-03.02.07------------>
+<img class="diagram" src="diagrams/030207share.png">
+<p>You can share this document to various social networks and email a link
+  with a message to your email contacts. Note you can even allow recipients
+  to share the editing of the document. For now click on ‘Get a link’ and
+  create a shortened View only link and copy it to the clipboard for later
+  use in the survey.</p>
+<p>Return to the OneDrive files list.</p>
+
+<!------------SubSection-03.02.07------------>
+<h2><a name="030207">Excel worksheets</a></h2>
+<p>This section is optional but you can essentially repeat the process in
+  the Excel Web App by creating an Excel worksheet and entering a few data
+  values and a chart. Inspect the INSERT, DATA and VIEW menus to gain an
+  impression of the range of editing actions.</p>
+<!------------Diagram-03.02.08------------>
+<img class="diagram" src="diagrams/030208excel.png">
+
+<!------------SubSection-03.02.08------------>
+<h2><a name="030208">PowerPoint presentations</a></h2>
+<p>Again optional, repeat the process of the last two sections by creating
+  a PowerPoint presentation, adding a few slides, changing the theme, adding
+  SmartArt and so on. Check the ribbon menus to see an impressive range of
+  editing options taken from the desktop version of PowerPoint.</p>
+  <!------------Diagram-03.02.09------------>
+  <img class="diagram" src="diagrams/030209ppt.png">
+
+<!------------SubSection-03.02.09------------>
+<h2>
+  <a name="030209">Other features</a>
+</h2>
+<p class="runinheading">
+  <em>OneNote</em>: Try creating a notebook with OneNote Online. Although not
+  as popular as Evernote you will find OneNote every bit as versatile, and
+  an excellent place to store and later search extensive collections of notes
+  and media of all kinds.</p>
+<p>
+  <em>Local file synchronization</em>: Just like Dropbox you can download the
+  OneDrive server app and nominate a local folder to hold synchronized copies
+  of your OneDrive files. Click on the ‘Get OneDrive apps’ link to download
+  apps for Windows 7 and the Mac. Note that the OneDrive server is already
+  built in to Windows 8 and OneDrive is completely integrated into Windows
+  8.1.</p>
+<p>
+  <em>Smartphones and tablets</em>: You can download dedicated OneDrive native
+  apps on iOS and Android that link to your OneDrive documents just as with
+  Dropbox and Google Drive.</p>
+<p>
+  <em>Manage storage</em>: Clicking on the Manage storage link shows you how
+  much space you have left and provides options to buy more if needed.</p>
+
+<!------------SubSection-03.02.10------------>
+<h2><a name="030210">Sharing link in survey</a></h2>
+<p>A survey later in the course will ask you to enter the link of one of
+  your Word document you created in one of the steps above. Use the Sharing
+  feature to copy the web link to your clipboard in readiness to paste into
+  your answer.</p>
+</body>
+</html >
+    
