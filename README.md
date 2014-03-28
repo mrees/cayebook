@@ -1,3 +1,5 @@
-This is the companion ebook for my Udemy course The Cloud and You.
+This is the companion Kindle ebook for my Udemy course The Cloud and You.
 
-CC-BY 2014 Michael J Rees
+(c) 2014 Michael J Rees
+
+Edition 1 published on Amazon 23 March 2014
